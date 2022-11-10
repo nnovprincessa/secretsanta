@@ -10,19 +10,31 @@
   <body>
     <form action="" class="postcard">
       <div class="form-row">
-        <label for="name">Ваше имя</label
+        <label for="name">Фамилия</label
+        ><input type="text" id="name" required /> <label for="name">Имя</label
+        ><input type="text" id="name" required />
+        <label for="name">Отчество</label
         ><input type="text" id="name" required />
       </div>
       <div class="form-row">
-        <label for="email">Ваш Email</label
+        <label for="email"
+          >Твоя почта, под которой ты зарегистрирована в Slack</label
         ><input type="email" id="email" required />
+        <label for="email"
+          >Твой номер телефона в формате +7000 без скобок и пробелов</label
+        ><input type="phone" id="phone" required />
       </div>
       <div class="form-row">
-        <label for="message">Ваше сообщение</label
+        <label for="adress"
+          >Твой почтовый адрес (индекс, страна, город, улица, дом, квартира)<br />
+          Обязательно проверь правильность адреса!</label
+        ><textarea rows="5" id="adress" required></textarea>
+        <label for="message"
+          >Предпочтение по подарку <br />(или что точно дарить не стоит)</label
         ><textarea rows="5" id="message" required></textarea>
       </div>
       <div class="form-row">
-        <input type="submit" value="Отправить сообщение" />
+        <input type="submit" value="Готово!" />
       </div>
     </form>
   </body>
