@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="page.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column1">
+        <p>
+          Привет! <br />Ты всего в одном шаге от Чуда!<br />
+          Скорее заполняй анкету <br />и не забудь проверить, <br />что все поля
+          заполнены верно!
+        </p>
+      </div>
+      <div class="column2">
+        <form action="" class="postcard">
+          <div class="form-row">
+            <label for="name">Фамилия</label
+            ><input type="text" id="name" required />
+            <label for="name">Имя</label
+            ><input type="text" id="name" required />
+            <label for="name">Отчество</label
+            ><input type="text" id="name" required />
+          </div>
+          <div class="form-row">
+            <label for="email"
+              >Твоя почта, под которой ты зарегистрирована в Slack</label
+            ><input type="email" id="email" required />
+            <label for="email"
+              >Твой номер телефона в формате +7000 без скобок и пробелов</label
+            ><input type="phone" id="phone" required />
+          </div>
+          <div class="form-row">
+            <label for="adress"
+              >Твой почтовый адрес (индекс, страна, город, улица, дом,
+              квартира)<br />
+              Обязательно проверь правильность адреса!</label
+            ><textarea rows="5" id="adress" required></textarea>
+            <label for="message"
+              >Предпочтение по подарку <br />(или что точно дарить не
+              стоит)</label
+            ><textarea rows="5" id="message" required></textarea>
+          </div>
+          <div class="form-row">
+            <input type="submit" value="Готово!" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(247,79,79,0.3);
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.column1{
+column-width: 1fr;
+border:1px solid black;
+}
+.column2{
+column-width: 1fr;
+border:1px solid black;
+}

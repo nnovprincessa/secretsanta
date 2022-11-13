@@ -1,9 +1,6 @@
 * {
     box-sizing: border-box;
  }
- body {
-    background: #F5E9D9;
- }
  .postcard {
     max-width: 350px;
     margin: 50px auto 0;
