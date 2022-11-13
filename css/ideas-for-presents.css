@@ -27,9 +27,10 @@ background-image: url(img-presents/background1.jpg);
     color:rgb(58, 50, 50) ;
     display: flex;
     justify-content: center;
-    font-weight: bolder;
+    font-weight: 900;
     font-family: 'Jost', 'Playfair Display';
     padding: 15px;
+    font-size: larger;
 }
 a:hover{
     color: #993c52;
