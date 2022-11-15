@@ -1,7 +1,7 @@
 let snowmax=40
  
 // Цвета для снежинок. Для каждой конкретной снежинки цвет выбирается случайно из этого массива.
-let snowcolor=new Array("#b9dff5","#7fc7ff","#7fb1ff","#7fc7ff","#b9dff5")
+let snowcolor=new Array("#ffffff","#ffffff00")
  
 // Шрифт для снежинок
 let snowtype=new Array("Times")
