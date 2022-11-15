@@ -5,7 +5,7 @@
     max-width: 350px;
     margin: 50px auto 0;
     padding: 20px;
-    background: #fffdee;
+    background: rgba(255, 253, 238, 0.5);
     border: 10px solid transparent;
     border-image: 10 repeating-linear-gradient(135deg, #F74F4F, #F74F4F 10px, transparent 10px, transparent 20px, #FBCFDF 20px, #FBCFDF 30px, transparent 30px, transparent 40px);
     font-family: 'Playfair Display';
@@ -20,7 +20,7 @@
     line-height: 35px;
     border-width: 0;
     outline: none;
-    background: transparent url(https://html5book.ru/wp-content/uploads/2016/12/bg-form.png) bottom left repeat-x;
+    background: transparent url(bg-form.png) bottom left repeat-x;
     background-size: 8px 35px;
     font-family: 'Playfair Display';
  }
