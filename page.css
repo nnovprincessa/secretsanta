@@ -5,6 +5,14 @@
     background-color: rgba(247,79,79,0.3);
     font-family: 'Playfair Display', serif;
 }
+@media screen and (max-width:767px) {
+    .column1{
+        display:none;
+    }
+    .postcard{
+        margin-top: 0;
+    }
+}
 .column1{
 column-width: 1fr;
 color:#f74f4f;
