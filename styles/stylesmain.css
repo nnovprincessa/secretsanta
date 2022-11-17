@@ -67,8 +67,6 @@ body {
     }
 }
 
-
-
 .Allwrap {
     display: flex;
     align-items: flex-end;
@@ -78,7 +76,6 @@ body {
 .WrapAdd img {
     max-width: 100%;
 }
-
 
 .img_wight {
     max-width: 50%;
@@ -116,8 +113,6 @@ body {
     font-family: 'Merriweather', serif;
     font-size: 1.5rem;
 }
-
-
 
 .hrefcard {
     display: flex;
@@ -189,14 +184,10 @@ a:focus {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
 }
 
-
-
-
 .window {
     max-width: 80%;
     padding: 1%;
     background-color: #ffe6ea;
-
 }
 
 .ditail__Ruls,
