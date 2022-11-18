@@ -1,0 +1,98 @@
+@media screen and (min-width: 700px){
+    body{
+        background-color: #f3efe6;
+    background-image: url(img-presents/background1.jpg);
+    }
+    .rectangle__main{
+        background-color: #eb5f7f;
+        height: 2600px;
+        width: 1000px;
+        margin: auto;
+        border-radius: 2%;
+    }
+    .h1__ideas-for-presents{
+        display: flex;
+        justify-content: center;
+        color: #eb5f7f;
+        font-family: 'Jost', 'Playfair Display';
+    }
+    .main__text{
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        font-size: large;
+        color: #853548;
+        font-family: 'Jost', 'Playfair Display';
+    }
+    .link__presents{
+        color:rgb(58, 50, 50) ;
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        font-family: 'Jost', 'Playfair Display';
+        padding: 15px;
+        font-size: larger;
+    }
+    a:hover{
+        color: #993c52;
+    }
+    .img__presents{
+        height: 400px;
+        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        border-radius: 50%;
+        border: 3px solid #f3efe6;
+        box-shadow: 5px 5px 5px #853548;
+    }
+}
+@media screen and (max-width:699px){
+    body{
+        background-color: #f3efe6;
+    background-image: url(img-presents/background1.jpg);
+    }
+    .rectangle__main{
+        background-color: #eb5f7f;
+        height: 2600px;
+        border-radius: 2%;
+    }
+    .h1__ideas-for-presents{
+        display: flex;
+        justify-content: center;
+        color: #eb5f7f;
+        font-family: 'Jost', 'Playfair Display';
+    }
+    .main__text{
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        font-size: large;
+        color: #853548;
+        font-family: 'Jost', 'Playfair Display';
+    }
+    .link__presents{
+        color:rgb(58, 50, 50) ;
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        font-family: 'Jost', 'Playfair Display';
+        padding: 15px;
+        font-size: larger;
+    }
+    a:hover{
+        color: #993c52;
+    }
+    .img__presents{
+        height: 300px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        border-radius: 50%;
+        border: 3px solid #f3efe6;
+        box-shadow: 5px 5px 5px #853548;
+    }
+}
