@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(247,79,79,0.3);
+    font-family: 'Playfair Display', serif;
+}
+@media screen and (max-width:767px) {
+    .column1{
+        display:none;
+    }
+    .postcard{
+        margin-top: 0;
+    }
+}
+.phone{
+    color:rgba(172, 166, 166, 0.3)
+}
+.column1{
+column-width: 1fr;
+color:#f74f4f;
+text-align: center;
+font-weight: bolder;
+padding:10px;
+margin-top: 4%;
+line-height: 30px;
+}
+.column2{
+column-width: 1fr;
+}
+img{
+    margin-top: 30%;
+}
