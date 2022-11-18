@@ -13,10 +13,14 @@
         margin-top: 0;
     }
 }
+phone{
+    color:rgba(172, 166, 166, 0.3)
+}
 .column1{
 column-width: 1fr;
 color:#f74f4f;
 text-align: center;
+font-weight: bolder;
 padding:10px;
 margin-top: 4%;
 line-height: 30px;

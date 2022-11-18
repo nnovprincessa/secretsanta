@@ -19,11 +19,15 @@
     padding: 0 10px;
     line-height: 35px;
     border-width: 0;
-    outline: none;
+    outline:auto;
+    outline-color: darkgray;
     background: transparent url(bg-form.png) bottom left repeat-x;
     background-size: 8px 35px;
     font-family: 'Playfair Display';
  }
+ .form-row input[type="tel"]
+    outline:auto;
+    outline-color: darkgray;
  .form-row textarea {
     background-attachment: local;
     background-repeat: repeat;
@@ -42,6 +46,7 @@
     color: #fffdee;
     text-transform: uppercase;
     transition: 1s cubic-bezier(.165, .84, .44, 1);
+    border-radius: 30px;
  }
  .form-row input[type=submit]:hover {
     background: #F74F4F;
