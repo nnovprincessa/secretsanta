@@ -1,0 +1,225 @@
+body {
+    width: 100vw;
+}
+
+.ContainerMain {
+    align-items: center;
+    background: linear-gradient(#f74f4f 85%, PINK);
+    font-family: 'Merriweather', serif;
+}
+
+.ContainerText__h1 {
+    color: white;
+    font-style: oblique;
+}
+
+.bolttext {
+    color: white;
+    font-style: oblique;
+}
+
+
+.Allwrap {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.WrapAdd img {
+    max-width: 100%;
+}
+
+.img_wight {
+    max-width: 50%;
+}
+
+.img_girl {
+    max-width: 100%;
+}
+
+.Allwrap {
+    background: linear-gradient(white 80%, #f74f4f);
+    width: 100vw;
+}
+
+.bottonFon {
+    width: 100vw;
+    background-color: #f74f4f;
+}
+
+.ContainerRuls {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(PINK 30%, white);
+}
+
+.ContainerRuls__img {
+    display: flex;
+    justify-content: end;
+}
+
+.ContainerRuls__text {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+}
+
+.hrefcard {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto', Тahoma, sans-serif;
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+a:hover,
+a:active,
+a:focus {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.ContainerText__button {
+    font-size: 1.5rem;
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1%;
+    gap: 1;
+    color: white;
+    display: flex;
+    max-width: min-content;
+    font-style: oblique;
+}
+
+.ContainerText__button:hover {
+    color: black;
+}
+
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin-left: 10%;
+    max-width: max-content;
+    margin-bottom: 10%;
+}
+
+.ditail__What:hover,
+.ditail__What:active,
+.ditail__What:focus {
+    transform: translateY(4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+}
+
+.ditail__Ruls:hover,
+.ditail__Ruls:active,
+.ditail__Ruls:focus {
+    transform: translateY(4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+}
+
+.ditail__statistic:hover,
+.ditail__statistic:active,
+.ditail__statistic:focus {
+    transform: translateY(4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+}
+
+.window {
+    max-width: 80%;
+    padding: 1%;
+    background-color: #ffe6ea;
+}
+
+.ditail__Ruls,
+.ditail__statistic,
+.ditail__What {
+    width: 100vw;
+    margin-top: 10%;
+    padding: 1%;
+    font-size: 1.7rem;
+    cursor: pointer;
+    max-width: max-content;
+}
+
+@media screen and (min-width:768px) {
+    .ContainerMain {
+        background: linear-gradient(#f74f4f 60%, rgb(255, 255, 255));
+        font-family: 'Merriweather', serif;
+        display: flex;
+        min-height: 70vh;
+        margin-top: -10vh;
+    }
+
+    .img_wight {
+        display: none;
+    }
+
+
+    .ContainerRuls {
+        margin-top: -15vh;
+    }
+
+
+    .WrapAdd {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img_girl {
+        max-width: 100%;
+        margin-top: -5%;
+    }
+
+    .WrapAdd {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .ContainerText {
+        font-size: 2rem;
+        align-content: flex-end;
+
+    }
+
+    .bottonFon {
+        width: 100vw;
+        background-color: #f74f4f;
+        margin-bottom: -10%;
+    }
+
+    .information {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10%;
+        max-width: max-content;
+        margin-bottom: 10%;
+        column-gap: 50%;
+    }
+
+}
+
+@media screen and (min-width:1000px) {
+    .information {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 10%;
+        max-width: max-content;
+        margin-bottom: 10%;
+        column-gap: 50%;
+    }
+
+}
