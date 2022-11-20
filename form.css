@@ -8,7 +8,7 @@
     background: rgba(255, 253, 238, 0.5);
     border: 10px solid transparent;
     border-image: 10 repeating-linear-gradient(135deg, #F74F4F, #F74F4F 10px, transparent 10px, transparent 20px, #FBCFDF 20px, #FBCFDF 30px, transparent 30px, transparent 40px);
-    font-family: 'Playfair Display';
+    font-family: ''Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     color: #605756;
  }
  .form-row {
@@ -25,10 +25,7 @@
     background-size: 8px 35px;
     font-family: 'Playfair Display';
  }
- .form-row input[type="tel"]
-    outline:auto;
-    outline-color: darkgray;
- .form-row textarea {
+  .form-row textarea {
     background-attachment: local;
     background-repeat: repeat;
     resize: none;
