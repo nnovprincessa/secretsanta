@@ -1,10 +1,11 @@
 body {
     width: 100vw;
+    height: 100vh;
 }
 
 .ContainerMain {
     align-items: center;
-    background: linear-gradient(#f74f4f 85%, PINK);
+    background: linear-gradient(#f74f4f 70%, white);
     font-family: 'Merriweather', serif;
 }
 
@@ -30,12 +31,16 @@ body {
     max-width: 100%;
 }
 
+.WrapAdd {
+    text-align: center;
+}
+
 .img_wight {
     max-width: 50%;
 }
 
 .img_girl {
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .Allwrap {
@@ -51,10 +56,9 @@ body {
 .ContainerRuls {
     display: flex;
     width: 100vw;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(PINK 30%, white);
 }
 
 .ContainerRuls__img {
@@ -65,6 +69,7 @@ body {
 .ContainerRuls__text {
     font-family: 'Merriweather', serif;
     font-size: 1.5rem;
+    -webkit-text-stroke: 0.3px black;
 }
 
 .hrefcard {
@@ -85,7 +90,7 @@ a:active,
 a:focus {
     transform: translateY(-4px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
-    color: white;
+    color: #f74f4f;
 }
 
 .ContainerText__button {
@@ -94,12 +99,13 @@ a:focus {
     cursor: pointer;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1%;
+    padding: 5%;
     gap: 1;
     color: white;
     display: flex;
     max-width: min-content;
     font-style: oblique;
+    -webkit-text-stroke: 0.3px black;
 }
 
 .ContainerText__button:hover {
@@ -159,8 +165,8 @@ a:focus {
         background: linear-gradient(#f74f4f 60%, rgb(255, 255, 255));
         font-family: 'Merriweather', serif;
         display: flex;
-        min-height: 70vh;
-        margin-top: -10vh;
+        min-height: 50vh;
+        /* margin-top: -10vh; */
     }
 
     .img_wight {
@@ -168,10 +174,16 @@ a:focus {
     }
 
 
-    .ContainerRuls {
-        margin-top: -15vh;
-    }
 
+
+    .ContainerRuls {
+        display: flex;
+        width: 100vw;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+    }
 
     .WrapAdd {
         display: flex;
@@ -197,7 +209,7 @@ a:focus {
     .bottonFon {
         width: 100vw;
         background-color: #f74f4f;
-        margin-bottom: -10%;
+        /* margin-bottom: -10%; */
     }
 
 
