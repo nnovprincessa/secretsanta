@@ -8,6 +8,7 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+
 .ContainerText__h1 {
     color: white;
     font-style: oblique;
@@ -199,31 +200,5 @@ a:focus {
         margin-bottom: -10%;
     }
 
-    .information {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        margin-left: 15%;
-        max-width: max-content;
-        margin-bottom: 10%;
-        column-gap: 50%;
-    }
-
-    .window {
-        max-width: 50%;
-        padding: 1%;
-        background-color: #ffe6ea;
-    }
 
 }
-
-/* @media screen and (min-width:1000px) {
-    .information {
-        display: grid;
-        grid-template-rows: 1fr;
-        margin-left: 10%;
-        max-width: max-content;
-        margin-bottom: 10%;
-        column-gap: 50%;
-    }
-
-} */
