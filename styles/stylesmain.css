@@ -6,7 +6,8 @@ body {
 .ContainerMain {
     align-items: center;
     background: linear-gradient(#f74f4f 70%, white);
-    font-family: 'Merriweather', serif;
+    font-family: 'Jost', 'Playfair Display';
+    text-decoration: double;
 }
 
 
@@ -67,7 +68,7 @@ body {
 }
 
 .ContainerRuls__text {
-    font-family: 'Merriweather', serif;
+    font-family: 'Jost', 'Playfair Display';
     font-size: 1.5rem;
     -webkit-text-stroke: 0.3px black;
 }
@@ -122,6 +123,7 @@ a:focus {
     margin-left: 10%;
     max-width: max-content;
     margin-bottom: 10%;
+    font-family: 'Jost', 'Playfair Display';
 }
 
 .ditail__What:hover,
@@ -151,7 +153,7 @@ a:focus {
     background-color: #ffe6ea;
 }
 
-.ditail__Ruls,
+/* .ditail__Ruls,
 .ditail__statistic,
 .ditail__What {
     width: 100vw;
@@ -160,12 +162,12 @@ a:focus {
     font-size: 1.7rem;
     cursor: pointer;
     max-width: max-content;
-}
+} */
 
 @media screen and (min-width:768px) {
     .ContainerMain {
         background: linear-gradient(#f74f4f 60%, rgb(255, 255, 255));
-        font-family: 'Merriweather', serif;
+        font-family: 'Jost', 'Playfair Display';
         display: flex;
         min-height: 50vh;
         /* margin-top: -10vh; */
@@ -200,6 +202,7 @@ a:focus {
     .WrapAdd {
         display: flex;
         align-items: flex-end;
+        font-family: 'Jost', 'Playfair Display';
     }
 
     .ContainerText {
