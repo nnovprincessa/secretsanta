@@ -153,24 +153,12 @@ a:focus {
     background-color: #ffe6ea;
 }
 
-/* .ditail__Ruls,
-.ditail__statistic,
-.ditail__What {
-    width: 100vw;
-    margin-top: 10%;
-    padding: 1%;
-    font-size: 1.7rem;
-    cursor: pointer;
-    max-width: max-content;
-} */
-
 @media screen and (min-width:768px) {
     .ContainerMain {
         background: linear-gradient(#f74f4f 60%, rgb(255, 255, 255));
         font-family: 'Jost', 'Playfair Display';
         display: flex;
         min-height: 50vh;
-        /* margin-top: -10vh; */
     }
 
     .img_wight {
@@ -214,7 +202,6 @@ a:focus {
     .bottonFon {
         width: 100vw;
         background-color: #f74f4f;
-        /* margin-bottom: -10%; */
     }
 
 
