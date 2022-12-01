@@ -34,6 +34,7 @@ body {
 
 .WrapAdd {
     text-align: center;
+    font-family: 'Jost', 'Playfair Display';
 }
 
 .img_wight {
@@ -47,6 +48,7 @@ body {
 .Allwrap {
     background: linear-gradient(white 80%, #f74f4f);
     width: 100vw;
+
 }
 
 .bottonFon {
@@ -71,6 +73,11 @@ body {
     font-family: 'Jost', 'Playfair Display';
     font-size: 1.5rem;
     -webkit-text-stroke: 0.3px black;
+}
+
+figcaption {
+    font-family: 'Jost', 'Playfair Display';
+
 }
 
 .hrefcard {
@@ -116,69 +123,17 @@ a:focus {
 }
 
 
-.information {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    margin-left: 10%;
-    max-width: max-content;
-    margin-bottom: 10%;
-    font-family: 'Jost', 'Playfair Display';
-}
-
-.ditail__What:hover,
-.ditail__What:active,
-.ditail__What:focus {
-    transform: translateY(4px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
-}
-
-.ditail__Ruls:hover,
-.ditail__Ruls:active,
-.ditail__Ruls:focus {
-    transform: translateY(4px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
-}
-
-.ditail__statistic:hover,
-.ditail__statistic:active,
-.ditail__statistic:focus {
-    transform: translateY(4px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
-}
-
-.window {
-    max-width: 80%;
-    padding: 1%;
-    background-color: #ffe6ea;
-}
-
-/* .ditail__Ruls,
-.ditail__statistic,
-.ditail__What {
-    width: 100vw;
-    margin-top: 10%;
-    padding: 1%;
-    font-size: 1.7rem;
-    cursor: pointer;
-    max-width: max-content;
-} */
-
 @media screen and (min-width:768px) {
     .ContainerMain {
         background: linear-gradient(#f74f4f 60%, rgb(255, 255, 255));
         font-family: 'Jost', 'Playfair Display';
         display: flex;
         min-height: 50vh;
-        /* margin-top: -10vh; */
     }
 
     .img_wight {
         display: none;
     }
-
-
-
 
     .ContainerRuls {
         display: flex;
@@ -187,11 +142,6 @@ a:focus {
         align-items: center;
         justify-content: space-around;
 
-    }
-
-    .WrapAdd {
-        display: flex;
-        flex-direction: row;
     }
 
     .img_girl {
@@ -208,14 +158,15 @@ a:focus {
     .ContainerText {
         font-size: 2rem;
         align-content: flex-end;
-
     }
+
+    .containerDitails {
+        padding-left: 5%;
+    }
+
 
     .bottonFon {
         width: 100vw;
         background-color: #f74f4f;
-        /* margin-bottom: -10%; */
     }
-
-
 }
